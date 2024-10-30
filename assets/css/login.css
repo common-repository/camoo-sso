@@ -1,0 +1,550 @@
+body.login {overflow-y: auto;}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+
+.assistant-card div#login form {
+    text-align: left;
+}
+.td-camoo-sso-options {
+    vertical-align: top;
+}
+
+body.camoo-sso-assistent section.camoo-sso-header {
+    line-height: 34px;
+    width: 100%;
+    height: 82px;
+    position: relative;
+    z-index: 1;
+}
+body.camoo-sso-assistent section.camoo-sso-header  {
+    position: relative;
+}
+
+body.camoo-sso-assistent section.camoo-sso-header {
+    padding: 16px;
+}
+
+body.camoo-sso-assistent {
+    color: #ffffff;
+    background-color: #2880b9!important;
+    background-size: 100% 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body.camoo-sso-assistent section.camoo-sso-header img.logo {
+    vertical-align: top;
+    height: 86px;
+}
+
+body.camoo-sso-assistent .assistant-card-container {
+    height: auto;
+}
+
+body.camoo-sso-assistent  .assistant-card-container {
+    padding-bottom: 82px;
+    padding-top: 0;
+}
+
+body.camoo-sso-assistent  section, body.camoo-sso-assistent  div, body.camoo-sso-assistent  :before, body.camoo-sso-assistent  :after {
+    box-sizing: border-box;
+    -webkit-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -moz-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -ms-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-animation-fill-mode: forwards !important;
+    -moz-animation-fill-mode: forwards !important;
+    -ms-animation-fill-mode: forwards !important;
+    -o-animation-fill-mode: forwards !important;
+    animation-fill-mode: forwards !important;
+}
+
+body.camoo-sso-assistent  section {
+    padding: 16px;
+}
+
+.assistant-card-container {
+    width: 100%;
+    min-height: calc(100% - 82px );
+    perspective: 1000px;
+    z-index: 2;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+}
+
+body.camoo-sso-assistent  section, body.camoo-sso-assistent  div, body.camoo-sso-assistent  :before, body.camoo-sso-assistent  :after {
+    box-sizing: border-box;
+    -webkit-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -moz-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -ms-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-animation-fill-mode: forwards !important;
+    -moz-animation-fill-mode: forwards !important;
+    -ms-animation-fill-mode: forwards !important;
+    -o-animation-fill-mode: forwards !important;
+    animation-fill-mode: forwards !important;
+}
+
+.assistant-card.card-login {
+    width: 750px;
+    padding-bottom: 8px;
+}
+.assistant-card {
+    background-color: #f6f7f8;
+}
+
+.assistant-card {
+    color: #666666;
+    text-align: center;
+    box-shadow: 0 4px 73px 0 rgb(0 1 0 / 24%);
+    padding: 16px;
+    margin: 0 auto;
+    max-width: 80%;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .3s, width .5s, rotate .01s;
+    -moz-transition: all .3s, width .5s, rotate .01s;
+    -ms-transition: all .3s, width .5s, rotate .01s;
+    -o-transition: all .3s, width .5s, rotate .01s;
+    transition: all .3s, width .5s, rotate .01s;
+    -webkit-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000) !important;
+    -moz-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000) !important;
+    -ms-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000) !important;
+    -o-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000) !important;
+    transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000) !important;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.assistant-card .card-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.assistant-card .card-bg.card-weave-medium {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAwIiBoZWlnaHQ9IjI0MyIgdmlld0JveD0iMCAwIDE0MDMgMzQwLjI1Ij4KICA8cGF0aCBjbGFzcz0iY2xzLTEiIHN0eWxlPSJmaWxsOiMwMGFjZDc7IGZpbGwtb3BhY2l0eTouMSIgZD0iTTAsMFYzNDBzMjkuNzA1LDUuOTk0LDc3LTM5UzIwMS41NDEsMTgxLjgzOSwzMTEsMTgyczI1MS40MzcsNC4wNTksMzYyLTUyLDExNy4xODMtMjcuMjE4LDE1NC0yMiw2MS43OTQtNC44MTMsMTAxLTE4LDEwNC4yMy0xMS43ODIsMTU1LDIyLDc2LjksNTEuODgyLDEyNyw1NSw3Ni43OCwxLjA3LDEyMCw2MywxOC42NCwxMDEuNzA5LDczLDExMFYwSDBaIi8+Cjwvc3ZnPgo=);
+}
+
+.assistant-card .card-bg.card-weave-medium {
+    background-repeat: repeat-x;
+    background-position-y: -80px;
+    -webkit-animation: 2s weave-medium;
+    -moz-animation: 2s weave-medium;
+    -ms-animation: 2s weave-medium;
+    -o-animation: 2s weave-medium;
+    animation: 2s weave-medium;
+}
+
+.assistant-card .card-bg.card-weave-light {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAwIiBoZWlnaHQ9IjE4OSIgdmlld0JveD0iMCAwIDE0MDMgMjYzLjA5NCI+CiAgPHBhdGggY2xhc3M9ImNscy0xIiBzdHlsZT0iZmlsbDojMDBhY2Q3OyBmaWxsLW9wYWNpdHk6LjA1IiBkPSJNMCwwVjI2M3M1My42LDUuMDQ0LDEzMS01OSwxMTQuNzc0LTUyLjAzMywyNTUtMjIsMTg5LjMyMSwxOC44LDMwMy02NSwyMjMuNzA4LTE5LjU0MiwyNjEtMiwxMDYuMjIsMzYuMTQxLDE0NSwxNCw3OC45NS0xMy4zLDEyOCwzNSwxMDMuMTIsOTMuMjMxLDE4MCw5OVYwSDBaIi8+Cjwvc3ZnPgo=);
+}
+
+.assistant-card .card-bg.card-weave-light {
+    background-repeat: repeat-x;
+    background-position-y: -15px;
+    -webkit-animation: 2s weave-light;
+    -moz-animation: 2s weave-light;
+    -ms-animation: 2s weave-light;
+    -o-animation: 2s weave-light;
+    animation: 2s weave-light;
+}
+
+.assistant-card .card-step.active {
+    display: block;
+}
+
+.assistant-card .card-header {
+    z-index: 3;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.assistant-card .card-content {
+    z-index: 2;
+    padding: 0 0 32px;
+    position: relative;
+}
+
+
+.assistant-card .card-content .card-content-inner {
+    padding: 0 50px;
+}
+
+.assistant-card .card-content .card-content-inner {
+    padding: 0;
+}
+
+body.login:before {
+    z-index: 0 !important;
+}
+
+@media all and (max-width: 419px), all and (min-width: 420px) and (max-width: 959px), all and (min-width: 960px) and (max-width: 1511px), all and (min-width: 1512px) and (max-height: 950px) {
+    body.camoo-sso-assistent {
+        overflow-y: auto;
+    }
+    body.camoo-sso-assistent .header {
+        position: relative;
+    }
+    body.camoo-sso-assistent .assistant-card-container {
+        height: auto;
+    }
+}
+@media all and (max-width: 1024px) {
+    .assistant-card {
+        max-width: 100%;
+    }
+}
+@media all and (max-width: 419px) {
+    body.camoo-sso-assistent .assistant-card-container {
+        padding: 0;
+    }
+    .assistant-card {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+    }
+    .assistant-card:not(.card-login) .card-header {
+        display: none;
+    }
+    .assistant-card .themes-browser .theme-selector .theme-list .theme-list-inner a.theme {
+        width: 100%;
+    }
+    .assistant-card .card-footer {
+        display: block;
+    }
+    .assistant-card .card-footer .btn-group.right {
+        display: block;
+    }
+}
+@media all and (min-width: 420px) and (max-width: 1280px) {
+    .assistant-card .themes-browser .theme-selector .theme-list .theme-list-inner a.theme {
+        width: 50%;
+    }
+}
+@media all and (min-width: 420px) and (max-width: 959px), all and (max-width: 419px) {
+    .assistant-card .diys-toolbar {
+        display: block;
+        margin: 0 -16px;
+        padding: 20px 50px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    .assistant-card .diys-toolbar .diys-active-category {
+        line-height: 1.3;
+        display: table;
+        width: 100%;
+    }
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-label,
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-menu-btn {
+        vertical-align: middle;
+        display: table-cell;
+    }
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-label {
+        color: #2d323a;
+        text-align: right;
+    }
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-menu-btn {
+        text-align: left;
+        position: relative;
+        padding: 0 20px;
+    }
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-menu-btn:after,
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-menu-btn:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 50%;
+        width: 12px;
+        height: 2px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        -ms-border-radius: 1px;
+        -o-border-radius: 1px;
+        border-radius: 1px;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-menu-btn:before {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+        -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+        -o-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+    .assistant-card .diys-toolbar .diys-active-category .diys-sidebar-menu-btn:after {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transform-origin: 100% 0;
+        -moz-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        -o-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+    }
+    .assistant-card .themes-browser .diys-sidebar {
+        border-right: 0 none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: 45px 0 0;
+        -webkit-transform: translateX(-110%);
+        -moz-transform: translateX(-110%);
+        -ms-transform: translateX(-110%);
+        -o-transform: translateX(-110%);
+        transform: translateX(-110%);
+        -webkit-transition-property: width, height, top;
+        -moz-transition-property: width, height, top;
+        -ms-transition-property: width, height, top;
+        -o-transition-property: width, height, top;
+        transition-property: width, height, top;
+        -webkit-transition-duration: .2s, .2s, .05s;
+        -moz-transition-duration: .2s, .2s, .05s;
+        -ms-transition-duration: .2s, .2s, .05s;
+        -o-transition-duration: .2s, .2s, .05s;
+        transition-duration: .2s, .2s, .05s;
+        -webkit-transition-delay: .2s, .2s, .05s;
+        -moz-transition-delay: .2s, .2s, .05s;
+        -ms-transition-delay: .2s, .2s, .05s;
+        -o-transition-delay: .2s, .2s, .05s;
+        transition-delay: .2s, .2s, .05s;
+    }
+    .assistant-card .themes-browser .diys-sidebar .diys-sidebar-tabs {
+        height: 100%;
+        padding: 50px 20px;
+        overflow: hidden;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        -webkit-transform: translateX(-200%);
+        -moz-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        -o-transform: translateX(-200%);
+        transform: translateX(-200%);
+    }
+    .assistant-card .themes-browser .diys-sidebar .diys-sidebar-background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .assistant-card .themes-browser .diys-sidebar .diys-sidebar-background .diys-sidebar-background-disc {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 295px;
+        height: 295px;
+        background: rgba(255, 255, 255, 0);
+        -webkit-border-radius: 295px;
+        -moz-border-radius: 295px;
+        -ms-border-radius: 295px;
+        -o-border-radius: 295px;
+        border-radius: 295px;
+        -webkit-transform: scale(0.1) translateX(-2400%) translateY(-400%);
+        -moz-transform: scale(0.1) translateX(-2400%) translateY(-400%);
+        -ms-transform: scale(0.1) translateX(-2400%) translateY(-400%);
+        -o-transform: scale(0.1) translateX(-2400%) translateY(-400%);
+        transform: scale(0.1) translateX(-2400%) translateY(-400%);
+        -webkit-transition: 0.3s linear;
+        -moz-transition: 0.3s linear;
+        -ms-transition: 0.3s linear;
+        -o-transition: 0.3s linear;
+        transition: 0.3s linear;
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -ms-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+    .assistant-card .themes-browser .diys-sidebar .diys-sidebar-tabs > ul > li {
+        text-align: center;
+    }
+    .assistant-card .themes-browser .diys-sidebar .diys-sidebar-tabs > ul > li a {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .assistant-card .themes-browser .diys-sidebar .diys-sidebar-tabs > ul > li.active a:after {
+        display: none;
+    }
+    .assistant-card .themes-browser .diys-sidebar-menu-btn {
+        padding-left: 28px;
+        display: block;
+        right: 20px;
+        top: 50px;
+        position: fixed;
+        z-index: 11;
+        opacity: 0;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        -webkit-transition-delay: 0.3s;
+        -moz-transition-delay: 0.3s;
+        -ms-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+    }
+    .assistant-card .themes-browser .diys-sidebar-menu-btn:after,
+    .assistant-card .themes-browser .diys-sidebar-menu-btn:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 50%;
+        width: 25px;
+        height: 2px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        -ms-border-radius: 1px;
+        -o-border-radius: 1px;
+        border-radius: 1px;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+    .assistant-card .themes-browser .diys-sidebar-menu-btn:before {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .assistant-card .themes-browser .diys-sidebar-menu-btn:after {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .assistant-card .themes-browser .diys-sidebar-wrapper.open .diys-sidebar {
+        z-index: 11;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -ms-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+    .assistant-card .themes-browser .diys-sidebar-wrapper.open .diys-sidebar .diys-sidebar-background .diys-sidebar-background-disc {
+        background: rgba(255, 255, 255, 0.95);
+        -webkit-transform: scale(7);
+        -moz-transform: scale(7);
+        -ms-transform: scale(7);
+        -o-transform: scale(7);
+        transform: scale(7);
+    }
+    .assistant-card .themes-browser .diys-sidebar-wrapper.open .diys-sidebar .diys-sidebar-tabs {
+        display: block;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-transition-delay: 0.2s;
+        -moz-transition-delay: 0.2s;
+        -ms-transition-delay: 0.2s;
+        -o-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+    }
+    .assistant-card .themes-browser .diys-sidebar-wrapper.open .diys-sidebar-menu-btn {
+        top: 16px;
+        opacity: 1;
+        -webkit-transition: top .1s, opacity .3s;
+        -moz-transition: top .1s, opacity .3s;
+        -ms-transition: top .1s, opacity .3s;
+        -o-transition: top .1s, opacity .3s;
+        transition: top .1s, opacity .3s;
+        -webkit-transition-delay: 0.3s;
+        -moz-transition-delay: 0.3s;
+        -ms-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+    }
+    .assistant-card .themes-browser .theme-selector {
+        height: auto;
+    }
+}
